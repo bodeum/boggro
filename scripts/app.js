@@ -77,8 +77,8 @@
 				scope.$watch('col['+index+']', function(){
 					if(scope.col[index]){
 						scope.contentUrl = 'view/col.html';
-						scope.isLoaded[index] = true;
-					}else if(!scope.col[index] && !scope.isLoaded[index]){
+						scope.$parent.isLoaded[index] = true;
+					}else if(!scope.col[index] && !scope.$parent.isLoaded[index]){
 						scope.contentUrl = 'view/default.html';
 					}
 				})
