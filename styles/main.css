@@ -154,10 +154,10 @@ footer{
 	line-height: 50px;
 }
 
-.panel-collapse>div{
+.panel-collapse{
 	overflow: hidden;
 }
-.panel-collapse>div:after{
+.panel-collapse:after{
 	content: "";
 	display: block;
 	clear: both;
