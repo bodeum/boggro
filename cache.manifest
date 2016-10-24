@@ -1,0 +1,22 @@
+CACHE MANIFEST
+
+CACHE:
+components/jquery/jquery-3.1.1.min.js
+components/bootstrap-3.3.7-dist/js/bootstrap.js
+components/angular/angular.min.js
+favicon.ico
+fonts/NanumBarunGothic.woff
+fonts/NanumPen.woff
+images/cam.jpg
+images/youtube.ico
+images/potsu.png
+images/icon_pause.png
+images/icon_play.png
+
+NETWORK:
+scripts/app.js
+styles/main.css
+index.html
+views/col.html
+
+FALLBACK:
