@@ -1,38 +1,12 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-/*
-@import url(https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
-@import url(https://cdn.jsdelivr.net/font-nanum/1.0/nanumpenscript/nanumpenscript.css);
-
-@font-face {
-	font-family: 'Jeju Hallasan';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/JejuHallasan-Regular.ttf');
-}
-@font-face {
-	font-family: 'notoSansBold';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/NotoSansKR-Bold.otf');
-}
-*/
-
 @font-face{
-	font-family: 'NanumBarunGothicBold';
-	src: url('../fonts/NanumBarunGothicBold.woff');
+	font-family: 'NanumBarunGothic';
+	src: url('../fonts/NanumBarunGothic.woff');
 }
 @font-face{
 	font-family: 'NanumPen';
 	src: url('../fonts/NanumPen.woff');
 }
 
-.jeju{
-	font-family: 'Jeju Hallasan', 'NanumPen', sans-serif;
-}
-.noto{
-	font-family: 'Noto Sans KR', 'NanumBarunGothicBold', sans-serif;
-}
 .nanum{
 	font-family: 'NanumBarunGothic', sans-serif;
 }
@@ -138,8 +112,8 @@ h2>span{
 .fileName{
 	display: inline-block;
 	vertical-align: middle;
-	line-height: 20px;
-	font-size: 20px;
+	line-height: 30px;
+	font-size: 30px;
 	width: 90%;
 }
 .audioWrap:hover{
