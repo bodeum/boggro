@@ -17,5 +17,6 @@ NETWORK:
 scripts/app.js
 styles/main.css
 index.html
+views/col.html
 
 FALLBACK:
