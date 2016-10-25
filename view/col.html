@@ -1,5 +1,5 @@
 <div role="button" id="{{sound._id}}_{{$index + 1}}" class="audioWrap" ng-click="coll.play($event)" ng-repeat="file in sound.files">
-	<span class="fileName nanumPen">{{file}}</span>
+	<span class="fileName ya">{{file}}</span>
 	<audio ng-src="{{sound.path + file + '.mp3'}}" preload="auto"></audio>
 	<div class="progress"></div>
 	<div class="icon"></div>

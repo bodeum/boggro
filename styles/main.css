@@ -1,18 +1,17 @@
 @font-face{
-	font-family: 'NanumBarunGothic';
-	font-weight: 800;
-	src: url('../fonts/NanumBarunGothic.woff');
+	font-family: 'notoBold';
+	src: url('../fonts/NotoSansKR-Bold-Hestia.woff');
 }
 @font-face{
-	font-family: 'NanumPen';
-	src: url('../fonts/NanumPen.woff');
+	font-family: 'yaBold';
+	src: url('../fonts/yaBold.woff');
 }
 
-.nanum{
-	font-family: 'NanumBarunGothic', sans-serif;
+.noto{
+	font-family: 'notoBold', sans-serif;
 }
-.nanumPen{
-	font-family: 'NanumPen', sans-serif;
+.ya{
+	font-family: 'yaBold', sans-serif;
 }
 
 *{
