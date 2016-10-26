@@ -107,6 +107,16 @@ h2>span{
 	font-weight: bold;
 	float: left;
 }
+.new{
+	position: absolute;
+	display: inline-block;
+	line-height: 10px;
+	right: 0;
+	top: 10px;
+	font-size: 8px;
+	color: #F15F5F;
+	transform: rotate(20deg);
+}
 .fileName{
 	display: inline-block;
 	vertical-align: middle;
@@ -160,6 +170,7 @@ footer{
 	display: block;
 	clear: both;
 }
+
 
 @media all and (min-width:450px){
 	#header{
