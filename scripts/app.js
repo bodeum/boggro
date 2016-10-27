@@ -45,7 +45,7 @@
 						progress = audioWrap.find('.progress'),
 						icon = audioWrap.find('.icon');
 					
-					if (audio && audio.readyState >= audio.HAVE_FUTURE_DATA) audio.paused ? audio.play() : audio.pause();
+					if (audio && audio.readyState >= 1) audio.paused ? audio.play() : audio.pause();
 					
 					audioEle.bind('play', function (){
 						icon.removeClass('pause');
